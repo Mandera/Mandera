@@ -1,6 +1,7 @@
 # General
 * A collection of connected packages with shared metadata.
 * Violently updated with little regard for backwards compatability as they're all in Alpha.
+* Automatic workflows to unittest, publish, release and trigger dependents' workflows.
 
 #### Overview
 
