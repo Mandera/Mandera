@@ -12,5 +12,5 @@
 | [generalpackager](https://github.com/ManderaGeneral/generalpackager) | [0.2](https://pypi.org/project/generalpackager/) | 2021-02-09 16:10 CET | [3.8](https://www.python.org/downloads/release/python-380/), [3.9](https://www.python.org/downloads/release/python-390/) | Windows, Ubuntu | [6](https://github.com/ManderaGeneral/generalpackager#Todo) |     2 | 6.5 %   |
 
 <sup>
-Generated 2021-02-17 16:00 CET
+Generated 2021-02-18 10:54 CET
 </sup>
