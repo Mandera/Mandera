@@ -3,15 +3,15 @@
  - Violently updated with little regard for backwards compatability.
  - Automatic workflows to unittest, sync and publish.
 
-## Dependency Diagram
+## ManderaGeneral Dependency Diagram
 ```mermaid
 flowchart LR
-2([file]) --> 4([packager])
-1([library]) --> 4([packager])
-0([import]) --> 1([library])
-0([import]) --> 2([file])
 1([library]) --> 2([file])
+1([library]) --> 4([packager])
+0([import]) --> 2([file])
 1([library]) --> 3([vector])
+2([file]) --> 4([packager])
+0([import]) --> 1([library])
 click 0 "https://github.com/ManderaGeneral/generalimport"
 click 1 "https://github.com/ManderaGeneral/generallibrary"
 click 2 "https://github.com/ManderaGeneral/generalfile"
@@ -34,5 +34,5 @@ Issue-creation and discussions are most welcome!
 Pull requests are not wanted, please discuss with me before investing any time
 
 <sup>
-Generated 2022-10-15 08:45 CEST
+Generated 2022-10-15 09:34 CEST
 </sup>
