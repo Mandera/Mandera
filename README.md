@@ -6,12 +6,12 @@
 ## Dependency Diagram for ManderaGeneral
 ```mermaid
 flowchart LR
-1([library]) --> 2([file])
-0([import]) --> 2([file])
-1([library]) --> 3([vector])
-1([library]) --> 4([packager])
-0([import]) --> 1([library])
 2([file]) --> 4([packager])
+0([import]) --> 2([file])
+1([library]) --> 4([packager])
+1([library]) --> 2([file])
+0([import]) --> 1([library])
+1([library]) --> 3([vector])
 click 0 "https://github.com/ManderaGeneral/generalimport"
 click 1 "https://github.com/ManderaGeneral/generallibrary"
 click 2 "https://github.com/ManderaGeneral/generalfile"
@@ -34,5 +34,5 @@ Issue-creation and discussions are most welcome!
 Pull requests are not wanted, please discuss with me before investing any time
 
 <sup>
-Generated 2022-10-19 15:07 CEST
+Generated 2022-10-19 15:24 CEST
 </sup>
