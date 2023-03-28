@@ -2,6 +2,7 @@
  - Modularized platform for managing future products.
  - Automatic workflows to unittest, sync and publish.
 
+
 ## Dependency Diagram for ManderaGeneral
 ```mermaid
 flowchart LR
