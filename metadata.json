@@ -2,7 +2,7 @@
     "enabled": true,
     "private": false,
     "name": "Mandera",
-    "target": "summary",
+    "target": "python",
     "version": "0.0.1",
     "description": "Manages an environment of connected and isolated packages",
     "topics": [],
