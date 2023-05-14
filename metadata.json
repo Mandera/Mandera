@@ -7,5 +7,5 @@
     "description": "Manages an environment of connected and isolated packages",
     "topics": [],
     "manifest": [],
-    "contribute": false
+    "contribute": true
 }
