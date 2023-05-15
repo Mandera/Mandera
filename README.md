@@ -5,12 +5,12 @@
 ## Dependency Diagram for ManderaGeneral
 ```mermaid
 flowchart LR
+2([library]) --> 5([packager])
+1([tool]) --> 2([library])
+2([library]) --> 4([vector])
+0([import]) --> 3([file])
 2([library]) --> 3([file])
 3([file]) --> 5([packager])
-1([tool]) --> 2([library])
-2([library]) --> 5([packager])
-0([import]) --> 3([file])
-2([library]) --> 4([vector])
 0([import]) --> 2([library])
 click 0 "https://github.com/ManderaGeneral/generalimport"
 click 1 "https://github.com/ManderaGeneral/generaltool"
@@ -31,10 +31,8 @@ click 5 "https://github.com/ManderaGeneral/generalpackager"
 | [generalvector](https://github.com/ManderaGeneral/generalvector)     | [1.5.112](https://pypi.org/project/generalvector/) | 2022-10-27 16:21 CEST | [3.8](https://www.python.org/downloads/release/python-380/), [3.9](https://www.python.org/downloads/release/python-390/), [3.10](https://www.python.org/downloads/release/python-3100/), [3.11](https://www.python.org/downloads/release/python-3110/) | Windows, Ubuntu | 52.3 %  |
 
 ## Contributions
-Issue-creation and discussions are most welcome!
-
-Please hold off on submitting pull requests until all the necessary legal issues have been sorted out.
+Issue-creation, discussions and pull requests are most welcome!
 
 <sup>
-Generated 2023-05-09 04:46 CEST
+Generated 2023-05-16 01:50 CEST
 </sup>
